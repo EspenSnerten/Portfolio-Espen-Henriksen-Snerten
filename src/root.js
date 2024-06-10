@@ -13,6 +13,7 @@ const indexRoute = new Route({
 });
 
 
+
 const routeTree = rootRoute.addChildren([
   indexRoute,
 ]);
