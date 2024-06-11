@@ -28,12 +28,19 @@ export default function HolidazeCard() {
         </div>
 
         <div className="flex gap-5 mt-9">
-          <a href="" className="px-4 py-2 text-white rounded-md btn-clr">
+          <a
+            href="https://github.com/EspenSnerten/FED2-Exam-Holidaze-Espen-Henriksen-Snerten"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 text-white rounded-md btn-clr"
+          >
             GitHub <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            href=""
+            href="https://holidaze-snerten.netlify.app/"
             className="px-4 py-2 text-white rounded-md card-selector-active"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Live site <FontAwesomeIcon icon={faUpRightFromSquare} />
           </a>

@@ -17,13 +17,27 @@ export default function Footer() {
               </p>
             </div>
             <div className="flex flex-row sm:justify-end justify-center sm:w-[40%] w-full gap-6 align-middle mx-auto">
-              <a href="">
-                <FontAwesomeIcon icon={faLinkedin} className="text-white"/>
+              <a
+                href="https://www.linkedin.com/in/espen-henriksen-snerten-358b9a267/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} className="text-white" />
               </a>
-              <a href="">
-                <FontAwesomeIcon icon={faGithub} className="text-white"/>
+              <a
+                href="https://github.com/EspenSnerten"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="text-white" />
               </a>
-              <a href="" className="my-auto"><img src={MailIcon} alt="" className="my-auto h-auto w-[19px]"/></a>
+              <a href="mailto:espensnert@hotmail.com" className="my-auto">
+                <img
+                  src={MailIcon}
+                  alt="a mail icon"
+                  className="my-auto h-auto w-[19px]"
+                />
+              </a>
             </div>
           </div>
         </footer>

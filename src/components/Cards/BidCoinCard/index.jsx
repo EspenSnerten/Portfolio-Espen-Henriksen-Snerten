@@ -28,11 +28,18 @@ export default function BidCoinCard() {
         </div>
 
         <div className="flex gap-5 mt-9">
-          <a href="" className="px-4 py-2 text-white rounded-md btn-clr">
+          <a
+            href="https://github.com/EspenSnerten/Semester-Project-2023"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 text-white rounded-md btn-clr"
+          >
             GitHub <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            href=""
+            href="https://bidcoin-noroff.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 text-white rounded-md card-selector-active"
           >
             Live site <FontAwesomeIcon icon={faUpRightFromSquare} />

@@ -28,7 +28,9 @@ export default function TiLivCard() {
 
         <div className="flex mt-9">
           <a
-            href=""
+            href="https://www.figma.com/design/U0YSOqdBzECxeMvcxMoUHw/Ti-Liv?node-id=0-1&t=RIfdO1t0iaXolBRt-1"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 text-white rounded-md card-selector-active"
           >
             Figma <FontAwesomeIcon icon={faFigma} />
